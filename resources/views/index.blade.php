@@ -7,13 +7,6 @@
             <div class="d-flex justify-content-center align-items-center h-100 position-relative z-index-10 text-white">
                 <div>
                     <h1 class="display-1 fw-bold px-2 px-md-5 text-center mx-auto col-lg-8 mt-md-0" data-aos="fade-up" data-aos-delay="1000">Capture Your Perfect Moments!</h1>
-                    <div data-aos="fade-in" data-aos-delay="2000">
-                        <div class="d-md-flex justify-content-center mt-4 mb-3 my-md-5">
-                            <a href="{{ url('category') }}" class="btn btn-skew-left btn-orange btn-orange-chunky text-white mx-1 w-100 w-md-auto mb-2 mb-md-0"><span>Photography <i class="ri-arrow-right-line align-middle fw-bold"></i></span></a>
-                            <a href="{{ url('category') }}" class="btn btn-skew-left btn-orange btn-orange-chunky text-white mx-1 w-100 w-md-auto mb-2 mb-md-0"><span>Pro Video <i class="ri-arrow-right-line align-middle fw-bold"></i></span></a>
-                        </div>
-                        <i class="ri-mouse-line d-block text-center animation-float ri-2x transition-all opacity-50-hover text-white" data-pixr-scrollto data-target=".brand-section" data-aos="fade-up" data-aos-delay="700"></i>
-                    </div>
                 </div>
             </div>
         </div>
@@ -37,42 +30,7 @@
     </section>
     <!--/ Hero Section-->
 
-    <!-- Featured Brands-->
-    <div class="mb-lg-7 bg-light py-4" data-aos="fade-in">
-        <div class="container">
-            <div class="row gx-3 align-items-center">
-                <div class="col-12 justify-content-center justify-content-md-between align-items-center d-flex flex-wrap">
-                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
-                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Sony">
-                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-1.svg') }}" alt="Sony logo">
-                        </a>
-                    </div>
-                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
-                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Nikon">
-                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-2.svg') }}" alt="Nikon logo">
-                        </a>
-                    </div>
-                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
-                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Panasonic">
-                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-3.svg') }}" alt="Panasonic logo">
-                        </a>
-                    </div>
-                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
-                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Fujifilm">
-                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-4.svg') }}" alt="Fujifilm logo">
-                        </a>
-                    </div>
-                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
-                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Pentax">
-                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-5.svg') }}" alt="Pentax logo">
-                        </a>
-                    </div>
-                    <a href="{{ url('category') }}" class="btn btn-link fw-bolder">Explore All Brands <i class="ri-arrow-right-line align-bottom fw-bold"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ Featured Brands-->
+  
 
     <!-- Staff Picks-->
     <section class="mb-9 mt-5" data-aos="fade-up">
@@ -370,4 +328,40 @@
         </div>
     </section>
     <!-- /Reviews-->
+       <!-- Featured Brands-->
+    <div class="mt-lg-7 bg-light py-4" data-aos="fade-in">
+        <div class="container">
+            <div class="row gx-3 align-items-center">
+                <div class="col-12 justify-content-center justify-content-md-between align-items-center d-flex flex-wrap">
+                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
+                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Sony">
+                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-1.svg') }}" alt="Sony logo">
+                        </a>
+                    </div>
+                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
+                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Nikon">
+                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-2.svg') }}" alt="Nikon logo">
+                        </a>
+                    </div>
+                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
+                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Panasonic">
+                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-3.svg') }}" alt="Panasonic logo">
+                        </a>
+                    </div>
+                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
+                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Fujifilm">
+                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-4.svg') }}" alt="Fujifilm logo">
+                        </a>
+                    </div>
+                    <div class="me-2 f-w-20 m-4 ms-md-0 mt-md-0 mb-md-0">
+                        <a class="d-block" href="{{ url('category') }}" data-bs-toggle="tooltip" data-bs-placement="top" title="Pentax">
+                            <img class="img-fluid d-table mx-auto" src="{{ asset('assets/images/logos/logo-5.svg') }}" alt="Pentax logo">
+                        </a>
+                    </div>
+                    <a href="{{ url('category') }}" class="btn btn-link fw-bolder">Explore All Brands <i class="ri-arrow-right-line align-bottom fw-bold"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Featured Brands-->
 @endsection

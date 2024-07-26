@@ -1,6 +1,6 @@
 <!-- Footer -->
 <!-- Footer-->
-<footer class="bg-dark mt-10">
+<footer class="bg-dark">
 
     <!-- Footer socials-->
     <div class="bg-light py-4">
